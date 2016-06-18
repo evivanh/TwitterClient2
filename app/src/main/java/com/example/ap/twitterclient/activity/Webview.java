@@ -11,7 +11,7 @@ public class Webview extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_webview);
+        setContentView(R.layout.web);
 
         webView = (WebView) findViewById(R.id.webview);
         String URL = "http://www.nu.nl";
